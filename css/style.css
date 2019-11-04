@@ -1,0 +1,105 @@
+body{
+    background-color: darkgrey;
+    user-select: none;
+}
+
+body>div{
+    width: 50%;
+    height: 50%;
+    margin: 1vw auto;
+    text-align: center;
+}
+
+div>h1{
+    font: bold 3.5vw Verdana;
+    color: green;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.left, .right{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 2vw;
+    background-color: brown;
+    margin: 2vw;
+    position: relative;
+}
+
+body>div>div>p{
+    color: #011c96;
+    font-size: 2.5vw;
+    margin: 1vw 8vw;
+    position: relative;
+    display: inline;
+
+}
+
+.left>div, .right>div{
+    width: 3vw;
+    height: 3vw;
+    background-color: wheat;
+    border-radius: 50%;
+    position: absolute;
+    }
+
+.one{    
+    top: 8.5vw;
+    left: 8.5vw;   
+}
+
+.two{
+    top: 3vw;
+    left: 14vw;
+}
+
+.three{
+    top: 14vw;
+    left: 3vw;    
+}
+
+.four{
+    top: 3vw;
+    left: 3vw;
+}
+
+.five{
+    top: 14vw;
+    left: 14vw;
+}
+
+.six{
+    top: 8.5vw;
+    left: 3vw;
+}
+
+.seven{
+    top: 8.5vw;
+    left: 14vw;
+}
+
+.btn{
+    width: 10vw;
+    height: 4vw;
+    background-color: lightcoral;
+    color: dimgrey;
+    font: bold 2.5vw Verdana;
+    border-radius: 1vw;
+    border: 3px solid tomato;
+    padding-top: 1%;
+}
+
+.btn:hover{
+    color: blue;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.btn:active{
+    border: 3px solid black;
+    cursor: pointer;
+    box-shadow:0 0 5px 3px teal;
+}
